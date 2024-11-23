@@ -1,0 +1,161 @@
+/* Container styles */
+/* General styles */
+/* General Container Styling */
+.test-container {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Section */
+  .test-header h2 {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .test-header p {
+    color: #6c757d;
+    text-align: center;
+  }
+  
+  /* Timer Styling */
+  .test-timer {
+    font-size: 16px;
+    font-weight: bold;
+    color: #dc3545;
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  
+  /* Progress Indicators */
+  .test-progress {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .progress-indicator {
+    font-size: 20px;
+    margin: 0 2px;
+  }
+  
+  .progress-indicator.completed {
+    color: #28a745;
+  }
+  
+  .progress-indicator.pending {
+    color: #6c757d;
+  }
+  
+  /* Question Section */
+  .test-question h3 {
+    font-size: 18px;
+    color: #343a40;
+    margin-bottom: 10px;
+  }
+  
+  .test-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Option Buttons */
+  .option-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .option-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .option-button:active {
+    background-color: #004085;
+  }
+  
+  /* Navigation Buttons */
+  .test-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .nav-button {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-button:hover {
+    background-color: #218838;
+  }
+  
+  .nav-button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  /* Result Section */
+  .test-result h3 {
+    color: #8dbaea;
+    text-align: center;
+  }
+  
+  .test-result p {
+    font-size: 16px;
+    text-align: center;
+    color: #6c757d;
+  }
+  
+  .test-reset-button {
+    display: block;
+    margin: 20px auto;
+    background-color: #ffc107;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .test-reset-button:hover {
+    background-color: #e0a800;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .test-container {
+      padding: 15px;
+    }
+  
+    .test-question h3,
+    .test-header h2 {
+      font-size: 16px;
+    }
+  
+    .option-button,
+    .nav-button {
+      font-size: 14px;
+      padding: 8px 15px;
+    }
+  }
+  

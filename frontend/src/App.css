@@ -1,0 +1,136 @@
+/* src/App.css */
+ /* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #4CAF50;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 1em;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.content {
+  padding: 2em;
+} 
+  
+
+  /* Global Styles */
+
+/* Navbar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #007bff, #0056b3); /* Gradient Background */
+  padding: 1.5rem 3rem;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar Title */
+.navbar h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  letter-spacing: 1.5px;
+}
+
+/* Navbar Links */
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 0 1.5rem;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effects on Links */
+.navbar ul li a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #ffd700; /* Gold Underline */
+  bottom: -4px;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #ffd700; /* Gold Text Color */
+}
+
+.navbar ul li a:hover::after {
+  width: 100%;
+}
+
+/* Navbar Hover Background Effect */
+.navbar ul li a:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 2rem;
+  }
+
+  .navbar h1 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .navbar ul li {
+    margin: 0.5rem 0;
+  }
+
+  .navbar ul li a {
+    font-size: 1.2rem;
+  }
+}
+
+
